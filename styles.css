@@ -13,7 +13,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 16px;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
@@ -24,6 +24,7 @@ header {
     left: 0;
     right: 0;
     padding: 1.5rem 7%;
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +102,118 @@ nav a:hover::after {
 
 .home {
     padding-top: 6.3%;
+    position: relative;
+    height: 100%;
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.slider-heading {
+    font-size: 3rem;
+    position: absolute;
+    top: 41%;
+    left: 65%;
+    transform: translate(-50%, -50%); /* Center the element */
+    z-index: 10; /* Ensures the h1 appears above the images */
+    color: #1e5696;
+    padding: 10px;
+}
+
+.home p {
+    font-size: 2rem;
+    position: absolute;
+    top: 47%;
+    left: 66%;
+    transform: translate(-50%, -50%); /* Center the element */
+    z-index: 10; /* Ensures the h1 appears above the images */
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.swiper-btn1 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 1.8rem;
+    background: #2c353d;
+    cursor: pointer;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.swiper-btn2 {
+    position: absolute;
+    top: 50%;
+    right: 32%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 1.8rem;
+    background: #2c353d;
+    cursor: pointer;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.our-services {
+    padding: 2rem 7%;
+    text-align: center;
+}
+
+.service-heading {
+    text-align: center;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.service-heading h1 {
+    color: #2c353d;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.hr {
+    width: 10.5%;
+    background-color: #1e5696;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.main-inner-services {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width:768px) {

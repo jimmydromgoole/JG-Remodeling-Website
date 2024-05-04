@@ -2,7 +2,7 @@ const searchIcon = document.getElementById("search");
 const menuBarIcon = document.getElementById("menu-bar");
 const searchForm = document.getElementById("searchform");
 const searchInput = document.getElementById("searchInput")
-const nav =document.querySelector('.navbar');
+const nav = document.querySelector('.navbar');
 
 searchIcon.addEventListener("click", handleSearchIconClick);
 menuBarIcon.addEventListener("click", handleMenuBarClick);
