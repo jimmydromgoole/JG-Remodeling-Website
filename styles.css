@@ -180,14 +180,14 @@ nav a:hover::after {
 }
 
 .our-services h1 {
-    color: #1e5696;
+    color: #2c353d;
     font-size: 40px;
     font-weight: 300;
 }
 
 .hr {
     width: 10.5%;
-    background-color: #2c353d;
+    background-color: #1e5696;
     height: 2px;
     margin: 0 auto;
     margin-top: 0.5rem;
@@ -211,6 +211,26 @@ nav a:hover::after {
 .services-images img {
     max-width: 100%;
 }
+
+.service-inner-content {
+    padding: 2rem 0;
+}
+
+.services-inner-content h1 {
+    color: #2c353d;
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.services-inner-content p {
+    color: #2c353d;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
 
 
 
